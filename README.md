@@ -5,6 +5,9 @@ _bootstrapped with [Create React App](https://github.com/facebookincubator/creat
 ## Menu
 * [About](#about)
 * [Description](#description)
+* [Function](#function)
+* [Usage](#usage)
+* [Demo](#demo)
 * [Credits](#credits)
 
 ## About
@@ -36,6 +39,12 @@ or by swiping to the left from anywhere on the screen.
 ## Usage
 
 Just copy and paste or get inspired.
+
+## Demo
+
+You can view a live demo [here](https://mandarini.github.io/swipe-menu/).
+Make sure to open it with a mobile device, or inspect it with responsive mode on with Chrome Dev tools or
+another interface that emulates swipe events.
 
 ## Credits
 
