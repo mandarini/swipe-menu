@@ -42,7 +42,6 @@ class App extends Component {
 
     _onTouchMove(e) {
         if (e.changedTouches && e.changedTouches.length) {
-            const touch = e.changedTouches[0];
             this._swipe.swiping = true;
         }
     }
@@ -79,7 +78,9 @@ class App extends Component {
     return (
         <div onTouchStart={this._onTouchStart} onTouchMove={this._onTouchMove} onTouchEnd={this._onTouchEnd} className="fullscreen">
             <Sidedrawer/>
+            {/* You can also close the menu by clicking anywhere on the screen */}
             <div id="cover" onClick={() => this.closeNav()}></div>
+            {/* You can also open the menu by clicking the three horizontal lines here */}
             <a className="sidedrawer-toggle js-show-sidedrawer" onClick={() => this.openNav()}>&#8801;</a>
             <div id="content">
                 My great content
