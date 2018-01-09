@@ -1,0 +1,32 @@
+/**
+*  Cover CSS
+*/
+
+.noclick {
+  pointer-events: none;
+  z-index: -999;
+  height: 89vh;
+  overflow: hidden;
+}
+
+.black-cover {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 10, 10, 0.54);
+  z-index: 3;
+}
+
+.sidedrawer-toggle {
+  cursor: pointer;
+}
+
+.fullscreen {
+  background-color: #fbfff0;
+  height: 100vh;
+  width: 100vw;
+}
+
+
