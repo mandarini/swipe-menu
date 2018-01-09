@@ -22,8 +22,6 @@ is based on [this post](http://www.hartzis.me/test-touch-events-react/) by [hart
 I added some more interpretations of touch events detecting right swipes near the left edge of the screen
 that will trigger the opening of the menu and left swipes triggering the closing of the menu.
 
-The side menu is a modified version of the [w3schools](https://www.w3schools.com/) implementation of side navigation found [here](https://www.w3schools.com/howto/howto_js_sidenav.asp).
-
 ## Function
 
 ### Open the menu
