@@ -24,14 +24,14 @@ class App extends Component {
         this._open=true;
         document.getElementById("content").className = "noclick";
         document.getElementById("cover").className = "black-cover";
-        document.getElementById("mySidenav").style.width = "70vw";
+        document.getElementById("mySidenav").style.left = "0";
     }
 
     closeNav() {
         this._open=false;
         document.getElementById("content").className = "";
         document.getElementById("cover").className = "";
-        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("mySidenav").style.left = "-70vw";
     }
 
     _onTouchStart(e) {
